@@ -10,7 +10,7 @@ const BottomHeader = () => {
   const pathname = usePathname();
 
   return (
-    <div className="border-b-2">
+    <div className="">
       <Container className="flex items-center justify-between py-2 ">
         <div className="text-xs md:text-sm font-medium flex  items-center gap-5">
           {navItem?.map((nav) => (
