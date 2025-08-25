@@ -10,7 +10,7 @@ const NavbarProfile = () => {
         <User className="h-6 w-6 " />
       </div>
       <div>
-        <p className="text-sm font-medium">Hello, Guest!</p>
+        <p className="text-sm font-medium">Guest!</p>
         <Button className="w-full " size={"sm"} variant={'outline'}>
           <Link
             className="font-semibold"
