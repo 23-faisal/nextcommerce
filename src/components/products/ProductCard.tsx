@@ -34,7 +34,7 @@ const ProductCard = ({ product }: Props) => {
             </p>
           </Link>
 
-          <ProductSideBar />
+          <ProductSideBar product={product} />
 
           <div className="h-40   border-t-2 px-2 py-2 flex flex-col justify-between">
             <div>

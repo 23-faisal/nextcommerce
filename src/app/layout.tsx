@@ -3,6 +3,7 @@ import { Outfit } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/themes/ThemeProvider";
 import Container from "@/components/themes/Container";
+import { Toaster } from "@/components/ui/sonner";
 
 const outfit = Outfit({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -34,6 +35,7 @@ export default function RootLayout({
         >
           <Container>{children}</Container>
         </ThemeProvider>
+        <Toaster />
       </body>
     </html>
   );

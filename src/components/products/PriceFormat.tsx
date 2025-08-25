@@ -12,7 +12,7 @@ const PriceFormat = ({ amount = 0, className }: Props) => {
     currency: "USD",
     minimumFractionDigits: 2,
   });
-  return <div className={cn("font-medium", className)}>{formattedPrice}</div>;
+  return <span className={cn("font-medium", className)}>{formattedPrice}</span>;
 };
 
 export default PriceFormat;
